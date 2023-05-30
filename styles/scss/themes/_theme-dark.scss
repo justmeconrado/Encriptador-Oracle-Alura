@@ -1,0 +1,82 @@
+/* Estilos para el modo oscuro */
+.dark-mode {
+  background-color: #171717;
+  color: #f3f5fc;
+}
+
+.dark-mode .main__form,
+.dark-mode .main__textarea,
+.dark-mode .main__button-primary{
+  background-color: #171717;
+  color: #f3f5fc;
+}
+.dark-mode .aside {
+    background-color: #343A40;
+    color: #f3f5fc;
+}
+
+.dark-mode .main__button-primary {
+  background-color: #757FB2;
+  color: #f3f5fc;
+}
+
+.dark-mode .main__button-secondary {
+  background-color: #171717;
+  border-color: #f3f5fc;
+  color: #f3f5fc;
+}
+
+.dark-mode .main__buttons,
+.dark-mode .aside__button {
+  background-color: #171717;
+  border-color: #f3f5fc;
+  color: #f3f5fc;
+}
+
+.dark-mode .main__button:hover,
+.dark-mode .aside__button:hover {
+  background-color: #E9ECF8;
+  color: #171717;
+}
+
+.dark-mode .main__textarea,
+.dark-mode .main__button-primary,
+.dark-mode .main__button-secondary,
+.dark-mode .aside__button {
+  box-shadow: none;
+}
+
+.dark-mode .aside__h2,
+.dark-mode .aside__p {
+  color: #f3f5fc;
+}
+
+.dark-mode .developer a,
+.dark-mode .developer svg {
+  fill: #f3f5fc;
+}
+
+/* Estilos para el modo oscuro del modal */
+.dark-mode .modal__container {
+  background-color: #757FB2;
+}
+
+.dark-mode .modal__title,
+.dark-mode .modal__p,
+.dark-mode .modal__button {
+  color: #f3f5fc;
+}
+
+.dark-mode .modal__button {
+  background-color: #757FB2;
+  color: #f3f5fc;
+}
+
+.dark-mode .modal__button:hover {
+  background-color: #171717;
+  color: #f3f5fc;
+}
+.dark-mode footer p,
+.dark-mode footer a {
+    color: #f3f5fc;
+  }

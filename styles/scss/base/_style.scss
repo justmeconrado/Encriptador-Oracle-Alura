@@ -1,0 +1,493 @@
+/* Reset de estilos */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f3f5fc;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__logo {
+  position: relative;
+}
+
+.main__img {
+  padding: 24px 16px 24px 16px;
+  left: 4.27%;
+  right: 87.2%;
+}
+
+/* Estilos para el botón con el icono */
+.button-icon {
+  background-color: transparent;
+  border: none;
+  padding: 24px 24px 24px 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Agregamos una transición para suavizar el efecto */
+}
+
+.button-icon:hover {
+  transform: rotate(
+    360deg
+  ); /* Aplicamos la rotación completa al pasar el cursor sobre el botón */
+}
+
+/* Estilos para el formulario */
+
+.main__form {
+  position: relative;
+  background-color: #f3f5fc;
+  padding: 0px 16px 0px 16px;
+  border-radius: 8px;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.main__textarea {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  height: 50vh;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+}
+.main__footer--form {
+  position: relative;
+  display: flex;
+}
+
+.main__small {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 16px 0px 16px 0px;
+}
+.main__small--img {
+  padding-right: 8px;
+}
+
+.main__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  margin: 0 auto;
+  width: 99%;
+  max-width: 600px;
+}
+
+.main__button {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  height: 67px;
+  border-radius: 24px;
+  cursor: pointer;
+
+}
+
+.main__button-primary {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.main__button-primary:hover {
+  background-color: #609ED4;
+  color: #f3f5fc;
+  border: #609ED4;
+}
+
+.main__button-secondary {
+  background-color: #f3f5fc;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.main__button-secondary:hover {
+  background-color: #609ED4;
+  color: #f3f5fc;
+  border: #609ED4;
+}
+.aside {
+  position: relative;
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.aside__content {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.aside__img {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 32px 32px 32px 32px;
+}
+.aside__img--img {
+  width: 100%;
+  height: 100%;
+  padding: 24px 24px 12px 24px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.aside__h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #343a40;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  padding: 0px 32px 10px 32px;
+}
+
+.aside__p {
+  font-size: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  padding: 0px 32px 32px 32px;
+}
+
+.aside__content--none {
+  display: none;
+}
+
+.aside__message {
+  position: relative;
+  padding: 32px;
+  width: fit-content;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+.aside__encrypt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+  width: fit-content;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.aside__button {
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 550px;
+  height: 67px;
+  background-color: #fff;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.aside__button:hover {
+background-color: #f3f5fc;
+color: #0a3871;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer li {
+  margin-right: 10px;
+}
+
+footer li:last-child {
+  margin-right: 0;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0a3871;
+  transition: transform 0.3s ease;
+}
+
+footer a i {
+  margin-right: 5px;
+}
+
+footer a:hover {
+  transform: translateY(-5px);
+}
+
+.developer {
+  color: #0a3871;
+  display: inline-block;
+  overflow: hidden;
+  animation: typingAnimation 8s steps(100) infinite;
+  white-space: nowrap;
+}
+
+@keyframes typingAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Estilos para el modal */
+
+.modal__container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 32px;
+  gap: 32px;
+  border-radius: 32px;
+  text-align: center;
+  z-index: 9999;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.modal__overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
+
+.modal__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.modal__p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.modal__button {
+  width: 343px;
+  height: 67px;
+  padding: 24px;
+  gap: 8px;
+  border: 1px solid #f3f5fc;
+  border-radius: 24px;
+  background-color: #0a3871;
+  color: #f3f5fc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.modal__button:hover {
+  background-color: #f3f5fc;
+  color: #0a3871;
+}
+/* Estilos responsivos */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main__button {
+    font-size: 12px;
+  }
+  .aside__button{
+    font-size: 12px;
+  }
+
+  .aside__h2 {
+    font-size: 16px;
+  }
+
+  .aside__p {
+    font-size: 12px;
+  }
+}
+
+/* Estilos responsivos */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main__button {
+    font-size: 12px;
+  }
+  .aside__button {
+    font-size: 12px;
+  }
+  .aside__h2 {
+    font-size: 16px;
+  }
+
+  .aside__p {
+    font-size: 12px;
+  }
+}
+.fadeIn {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
