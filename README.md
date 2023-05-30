@@ -1,7 +1,7 @@
-# [Encriptador ONE de Alura Latam🔎] (https://justmeconrado.github.io/Encriptador-Oracle-Alura/)
+# [Encriptador ONE de Alura Latam🔎](https://justmeconrado.github.io/Encriptador-Oracle-Alura/)
 
 Este es un proyecto de encriptación y desencriptación de texto desarrollado por Conrado Vargas.
-![Encriptador ONE de Alura Latam](assets\img\127.0.0.1_5500_index.html.png)
+![Encriptador ONE de Alura Latam](https://raw.githubusercontent.com/justmeconrado/Encriptador-Oracle-Alura/main/assets/img/127.0.0.1_5500_index.html.png)
 
 ## Descripción del proyecto 📄
 
@@ -38,7 +38,7 @@ El Encriptador ONE es una aplicación web que permite encriptar y desencriptar t
 4. El resultado se mostrará en la sección correspondiente.
 5. Si deseas copiar el resultado, puedes hacer clic en el botón "Copiar".
 
-O sino, puedes ingresar a la aplicación a través de este enlace: [Encriptador ONE] (https://justmeconrado.github.io/Encriptador-Oracle-Alura/)
+O sino, puedes ingresar a la aplicación a través de este enlace: # [Encriptador ONE de Alura Latam🔎](https://justmeconrado.github.io/Encriptador-Oracle-Alura/)
 
 ## Autores ✒️
 
