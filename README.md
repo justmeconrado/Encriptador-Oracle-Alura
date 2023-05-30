@@ -1,6 +1,7 @@
-# [Encriptador ONE de Alura Latam 🔎]()
+# [Encriptador ONE de Alura Latam🔎] ()
 
 Este es un proyecto de encriptación y desencriptación de texto desarrollado por Conrado Vargas.
+![Encriptador ONE de Alura Latam](assets\img\127.0.0.1_5500_index.html.png)
 
 ## Descripción del proyecto 📄
 
@@ -18,9 +19,10 @@ El Encriptador ONE es una aplicación web que permite encriptar y desencriptar t
 - [Visual Studio Code](https://code.visualstudio.com) - Para escribir el código
 - [Git](https://git-scm.com/) - Para el control de versiones
 - [GitHub](https://github.com) - Para el alojamiento del código
-- [Google Fonts](https://fonts.google.com/) - Para las fuentes 
+- [Google Fonts](https://fonts.google.com/) - Para las fuentes
 - [Font Awesome](https://fontawesome.com/) - Para los íconos
 - [Favicon.io](https://favicon.io/) - Para el favicon
+
 ## Funcionalidades 📋
 
 - Encriptar texto: Permite al usuario ingresar un texto y encriptarlo utilizando una serie de reemplazos de letras.
@@ -36,7 +38,8 @@ El Encriptador ONE es una aplicación web que permite encriptar y desencriptar t
 4. El resultado se mostrará en la sección correspondiente.
 5. Si deseas copiar el resultado, puedes hacer clic en el botón "Copiar".
 
-O sino, puedes ingresar a la aplicación a través de este enlace: [Encriptador ONE]()
+O sino, puedes ingresar a la aplicación a través de este enlace: [Encriptador ONE] ()
+
 ## Autores ✒️
 
 - **Conrado Vargas** -  [justmeconrado](https://github.com/justmeconrado)

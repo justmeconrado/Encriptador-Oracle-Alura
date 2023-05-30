@@ -21,52 +21,57 @@
   </head>
   <body class="fadeIn">
     <main class="main">
-      <!--  header  -->
-      <header class="main__logo">
-        <h1 class="main__h1">
-          <img
-            class="main__img dark-mode-svg"
-            src="assets/img/logo.svg"
-            alt="Alura Logo"
-          />
-        </h1>
-        <button class="button-icon" onclick="toggleDarkMode()">
-          <i
-            class="fa-solid fa-circle-half-stroke fa-2xl"
-            style="color: #0a3871"
-          ></i>
-        </button>
-      </header>
-      <!--  form  -->
-      <div class="main__form">
-        <textarea
-          class="main__textarea"
-          name="mensaje"
-          id="mensaje"
-          placeholder="Ingrese el texto aqui"
-        ></textarea>
-        <div class="main__footer--form">
-          <div class="main__small">
+      <div class="main__container">
+        <!--  header  -->
+        <header class="main__logo">
+          <h1 class="main__h1">
             <img
-              class="main__small--img"
-              src="assets/img/Group.svg"
-              alt="información: El texto no puede contener mayusculas y/o caracteres especiales"
+              class="main__img dark-mode-svg"
+              src="assets/img/logo.svg"
+              alt="Alura Logo"
             />
-            <p>Solo letras minúsculas y sin acentos</p>
+          </h1>
+          <button class="button-icon" onclick="toggleDarkMode()">
+            <i
+              class="fa-solid fa-circle-half-stroke fa-2xl"
+              style="color: #0a3871"
+            ></i>
+          </button>
+        </header>
+        <!--  form  -->
+        <div class="main__form">
+          <textarea
+            class="main__textarea"
+            name="mensaje"
+            id="mensaje"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+          <div class="main__footer--form">
+            <div class="main__small">
+              <img
+                class="main__small--img"
+                src="assets/img/Group.svg"
+                alt="información: El texto no puede contener mayusculas y/o caracteres especiales"
+              />
+              <p>Solo letras minúsculas y sin acentos</p>
+            </div>
           </div>
-        </div>
-        <!--  main buttons  -->
-        <div class="main__buttons">
-          <button class="main__button main__button-primary" id="encriptar">
-            Encriptar
-          </button>
-          <button class="main__button main__button-secondary" id="desencriptar">
-            Desencriptar
-          </button>
+          <!--  main buttons  -->
+          <div class="main__buttons">
+            <button class="main__button main__button-primary" id="encriptar">
+              Encriptar
+            </button>
+            <button
+              class="main__button main__button-secondary"
+              id="desencriptar"
+            >
+              Desencriptar
+            </button>
+          </div>
         </div>
       </div>
       <!--  aside  -->
-      <div class="aside">
+      <aside class="aside">
         <section class="aside__content" id="ningunMensaje">
           <div class="aside__img">
             <img
@@ -93,7 +98,7 @@
             Copiar
           </button>
         </div>
-      </div>
+      </aside>
     </main>
     <!--  footer  -->
     <footer>

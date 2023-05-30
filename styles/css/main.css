@@ -545,6 +545,15 @@ header {
       -ms-flex-align: center;
           align-items: center; }
 
+.main__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
 .main__logo {
   position: relative; }
 
@@ -650,8 +659,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  width: 99%;
-  max-width: 600px; }
+  width: 100%; }
 
 .main__button {
   -webkit-box-pack: center;
@@ -750,8 +758,7 @@ header {
 .aside {
   position: relative;
   background-color: #fff;
-  width: 90%;
-  max-width: 600px;
+  width: auto;
   margin: 0 auto;
   background: #ffffff;
   -webkit-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -767,22 +774,34 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 32px; }
+  gap: 32px;
+  padding: 32px 16px 32px 16px;
+  margin: 32px 16px 32px 16px; }
 
-.aside__content {
-  text-align: center;
-  margin-bottom: 20px;
-  width: 100%; }
-
-.aside__img {
-  width: auto;
-  height: auto;
+.aside__h2 {
+  font-size: 24px;
+  margin: 32px 16px 32px 16px;
   margin-bottom: 10px;
-  padding: 32px 32px 32px 32px; }
+  color: #343a40;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center; }
+
+.aside__p {
+  font-size: 16px;
+  margin: 32px 16px 32px 16px;
+  margin-bottom: 10px;
+  color: #343a40;
+  line-height: 150%;
+  text-align: center; }
 
 .aside__img--img {
+  display: none;
   width: 100%;
   height: 100%;
+  max-width: 600px;
   padding: 24px 24px 12px 24px;
   -webkit-animation: float 3s ease-in-out infinite;
           animation: float 3s ease-in-out infinite; }
@@ -1057,6 +1076,96 @@ footer a:hover {
   .aside__p {
     font-size: 12px; } }
 /* Estilos responsivos */
+@media screen and (min-width: 768px) {
+  .main__buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .main__button-primary {
+    width: 47%; }
+
+  .main__button-secondary {
+    width: 47%; }
+
+  .main__img {
+    padding: 70px 40px 40px 70px; }
+
+  .button-icon {
+    margin: 70px 40px 40px 70px; }
+
+  .main__form {
+    margin: 70px 40px 40px 70px;
+    padding: 0; }
+
+  .aside {
+    margin: 70px 40px 40px 70px;
+    padding: 0; } }
+@media screen and (min-width: 1024px) {
+  main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  .button-icon {
+    padding: 0;
+    margin: 0; }
+
+  .main__img {
+    padding: 40px 0px 0px 70px; }
+
+  .main__container {
+    width: 75%; }
+
+  .aside {
+    margin: 0px 40px 0px 70px;
+    padding: 0px;
+    width: 25%;
+    height: 93vh;
+    margin-left: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .aside__img--img {
+    display: block; }
+
+  .main__form {
+    margin: 0;
+    padding: 0;
+    height: 90vh; }
+
+  .main__textarea {
+    margin-left: 240px;
+    width: 70%;
+    height: 75vh; }
+
+  .main__small {
+    padding: 0px 70px 0px 240px; }
+
+  .main__buttons {
+    padding: 0px 70px 0px 240px; } }
 @media screen and (max-width: 768px) {
   .container {
     max-width: 90%; } }
@@ -1134,6 +1243,9 @@ footer a:hover {
 
 .dark-mode .aside__h2,
 .dark-mode .aside__p {
+  color: #f3f5fc; }
+
+.dark-mode .aside__encrypt {
   color: #f3f5fc; }
 
 .dark-mode .developer a,
